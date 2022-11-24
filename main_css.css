@@ -6,23 +6,24 @@
 }
 
 .test-button {
-    min-width: 400px;
-    min-height: 40px;
+    min-width: 700px;
+    min-height: 50px;
     cursor: pointer;
 
     border: none;
     border-bottom: 4px solid #58a700;
-    border-radius: 15px;
+    border-radius: 20px;
     background-color: #58cc02;
 
+    font-size: 16;
     font-weight: bold;
     color: white;
-
-    margin: 10px;
 }
 .test-button:active {
+    background-color: #58a700;
     border-bottom: none;
     border-top: 4px solid #ffffff;
+    color: #f5f5f5;
 }
 
 .test-button-img {
@@ -33,8 +34,6 @@
     border: none;
     border-bottom: 8px solid #d5efef;
     background-color: #e7ffff;
-
-    margin: 10px;
 }
 .test-button-img:active {
     border-bottom: none;
@@ -44,4 +43,12 @@
 .img-in-button {
     width: 180px;
     height: 180px;
+}
+
+.header-plate {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.header {
+    text-align: center;
 }

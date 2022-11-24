@@ -3,9 +3,10 @@
 <link rel='stylesheet' href='/duomath/main_css.css'>
 
 <header>
-    <div>
+    <div class="header">
         <a class="header-plate" href="/duomath/">Главная страница</a>
         <a class="header-plate" href="/duomath/register/">Регистрация</a>
         <a class="header-plate" href="/duomath/login/">Автоиризация</a>
+        <a class="header-plate" href="/duomath/about/">О проекте</a>
     </div>
 </header>
