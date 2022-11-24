@@ -1,4 +1,6 @@
 <?php
 require '../templates/header.php';
 ?>
-Login
+<body class="all">
+Авторизация
+</body>

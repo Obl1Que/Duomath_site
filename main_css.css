@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.all {
+    font-family: 'Inter';
+}
+
+.test-button {
+    min-width: 400px;
+    min-height: 40px;
+    cursor: pointer;
+
+    border: none;
+    border-bottom: 4px solid #58a700;
+    border-radius: 15px;
+    background-color: #58cc02;
+
+    font-weight: bold;
+    color: white;
+
+    margin: 10px;
+}
+.test-button:active {
+    border-bottom: none;
+    border-top: 4px solid #ffffff;
+}
+
+.test-button-img {
+    width: 250px;
+    height: 250px;
+
+    border-radius: 25px;
+    border: none;
+    border-bottom: 8px solid #d5efef;
+    background-color: #e7ffff;
+
+    margin: 10px;
+}
+.test-button-img:active {
+    border-bottom: none;
+    border-top: 8px solid #ffffff;
+}
+
+.img-in-button {
+    width: 180px;
+    height: 180px;
+}
