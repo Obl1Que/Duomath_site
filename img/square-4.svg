@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d24a43;
+      }
+
+      .cls-2 {
+        fill: #d14a43;
+      }
+    </style>
+  </defs>
+  <g id="_Слой_1-2" data-name="Слой 1">
+    <g>
+      <path class="cls-2" d="M0,50V206c0,27.61,22.39,50,50,50H206c27.61,0,50-22.39,50-50V50C256,22.39,233.61,0,206,0H50C22.39,0,0,22.39,0,50Zm174-18c27.61,0,50,22.39,50,50v92c0,27.61-22.39,50-50,50H82c-27.61,0-50-22.39-50-50V82c0-27.61,22.39-50,50-50h92Z"/>
+      <rect class="cls-2" x="112" y="32" width="32" height="192" transform="translate(0 256) rotate(-90)"/>
+      <path class="cls-1" d="M32,96c0,8.84,7.16,16,16,16h-16v-16Z"/>
+      <path class="cls-1" d="M32,160c0-8.84,7.16-16,16-16h-16s0,16,0,16Z"/>
+      <path class="cls-1" d="M224,96c0,8.84-7.16,16-16,16h16s0-16,0-16Z"/>
+      <path class="cls-1" d="M224,160c0-8.84-7.16-16-16-16h16v16Z"/>
+    </g>
+  </g>
+</svg>

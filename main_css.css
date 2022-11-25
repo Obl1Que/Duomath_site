@@ -6,21 +6,20 @@
 }
 
 .test-button {
-    min-width: 700px;
     min-height: 50px;
     cursor: pointer;
 
     border: none;
-    border-bottom: 4px solid #58a700;
+    border-bottom: 4px solid #a70000;
     border-radius: 20px;
-    background-color: #58cc02;
+    background-color: #cc0202;
 
     font-size: 16;
     font-weight: bold;
     color: white;
 }
 .test-button:active {
-    background-color: #58a700;
+    background-color: #a70000;
     border-bottom: none;
     border-top: 4px solid #ffffff;
     color: #f5f5f5;
@@ -46,9 +45,64 @@
 }
 
 .header-plate {
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 3%;
+    margin-left: 3%;
+    text-decoration: none;
+    color: white;
+    font-size: 16;
+    font-weight: bold;
+    transition: .25s;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header-plate:hover {
+    font-size: 20;
+    transition: .25s;
+    margin: 0%;
+    border: solid none;
+    background-color: #a70000;
+    border-radius: 20px;
 }
 .header {
     text-align: center;
+    background-color: #cc0202;
+    line-height: 80px;
+    max-height: 80px;
+}
+
+.square {
+    margin: .5%;
+    min-width: 7%;
+    min-height: 7%;
+    max-width: 7%;
+    max-height: 7%;
+}
+
+.input-info {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 2.5%;
+}
+.input-pole {
+    min-width: 250px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #d2d2d2;
+    min-height: 30px;
+    text-align: center;
+}
+.echo-message-func {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 20px;
+    background-color: #ff6d6d;
+    color: white;
+    font-weight: bold;
+    font-size: 16;
+    max-width: 25%;
 }
