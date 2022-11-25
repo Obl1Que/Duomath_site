@@ -33,8 +33,8 @@ function GetFromDB($string_request) {
         return false;
     }
 }
-function echoMessage($message) {?>
-    <div class="echo-message-func">
+function echoMessage($message, $bg_color) {?>
+    <div class="echo-message-func" style="background-color: <?=$bg_color?>">
         <?=$message?>
     </div>
 <?php
@@ -42,9 +42,9 @@ function echoMessage($message) {?>
 
 if ($_POST['login'] && $_POST['password']) {
     if (GetFromDB('SELECT * FROM users WHERE email = "' . $_POST['login'] . '"')) {
-        echoMessage('ВЫ УЖЕ ЗАРЕГИСТРИРОВАНЫ!');
+        echoMessage('ВЫ УЖЕ ЗАРЕГИСТРИРОВАНЫ!', '#ff7777');
     } else {
         SendToDB('INSERT INTO users(`email`, `login`) VALUES("' . $_POST['login'] . '", "' . $_POST['password'] . '");');
-        echoMessage('ПОЗДРАВЛЯЕМ С УСПЕШНОЙ РЕГИСТРАЦИЕЙ!');
+        echoMessage('ПОЗДРАВЛЯЕМ С УСПЕШНОЙ РЕГИСТРАЦИЕЙ!', '#63d760');
     }
 }
